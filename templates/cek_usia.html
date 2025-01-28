@@ -14,7 +14,11 @@
         <button type="submit">Cek Usia</button>
     </form>
     {% if usia is not none %}
+    <h2>Tahun lahir anda : {{tahun_lahir}} </h2>
     <h2>Usia anda adalah : {{usia}} tahun</h2>
+    <div>
+    <p><h3>{{ai_output}}</h3></p>
+     </div>
     {% endif %}
 
   <a href="/">home</a>
